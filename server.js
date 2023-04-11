@@ -1,5 +1,5 @@
 const express = require("express")
-const connectDatabase = require("../backend/connect/db")
+const connectDatabase = require("./connect/db")
 const cors = require("cors")
 const { userRoute } = require("./route/user.route")
 const CalculationRoute = require("./route/calculation.route")
